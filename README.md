@@ -1,6 +1,6 @@
 # dotenv-doctor 🩺
 
-[![CI](https://github.com/slopggobblercobbler81/dotenv-doctor/actions/workflows/ci.yml/badge.svg)](https://github.com/slopggobblercobbler81/dotenv-doctor/actions/workflows/ci.yml)
+[![CI](https://github.com/slopgobblercobbler/dotenv-doctor/actions/workflows/ci.yml/badge.svg)](https://github.com/slopgobblercobbler/dotenv-doctor/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python Versions](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue)](pyproject.toml)
 
@@ -49,7 +49,7 @@ pip install dotenv-doctor
 ### From GitHub source
 
 ```bash
-pip install git+https://github.com/slopggobblercobbler81/dotenv-doctor.git
+pip install git+https://github.com/slopgobblercobbler/dotenv-doctor.git
 ```
 
 ---
@@ -273,7 +273,7 @@ Add to your `.pre-commit-config.yaml`:
 
 ```yaml
 repos:
-  - repo: https://github.com/slopggobblercobbler81/dotenv-doctor
+  - repo: https://github.com/slopgobblercobbler/dotenv-doctor
     rev: v0.1.0
     hooks:
       - id: dotenv-doctor-lint
@@ -287,4 +287,4 @@ repos:
 ## License
 
 This project is licensed under the terms of the [MIT License](LICENSE).
-Copyright (c) 2026 slopggobblercobbler81.
+Copyright (c) 2026 slopgobblercobbler.
